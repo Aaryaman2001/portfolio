@@ -9,6 +9,7 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
+        alert("Thank you! Your mail has been sent.")
     
         emailjs.sendForm('service_ilvl40a', 'template_8c7r6x1', form.current, 'idJagCnZFenq7FvKh')
           .then((result) => {
@@ -45,7 +46,8 @@ const Contact = () => {
                 <form ref = {form} onSubmit= {sendEmail}>
                     <input type="text" name = 'name' placeholder="Your Full Name" required/>
                     <input type = "email" name = "email" placeholder= "Your Email" required/>
-                    <textarea name = "message" rows = "7" placeholder= "Type in your message, click on the submit button to send. (Click only once)." required/>
+
+                    <textarea name = "message" rows = "7" placeholder= "Type in your message. You shall recieve an alert once the message is submitted!" required/>
                     <button type= "submit" className= "btn btn-primary" id = 'showdata'>Send Your Message</button>
                   
                     

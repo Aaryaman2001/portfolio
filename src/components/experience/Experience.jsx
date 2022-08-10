@@ -14,32 +14,32 @@ const experience = () => {
                     <article className= "experience__details">
                         <BsPatchCheckFill className= "experience__details-icons"></BsPatchCheckFill>
                         <div><h4>Java</h4>
-                        <small className= "text-light">Intermediate+</small></div>
+                        <small className= "text-light">DSA, OOPs.</small></div>
                     </article>
                     <article className= "experience__details">
                     <BsPatchCheckFill className= "experience__details-icons"></BsPatchCheckFill>
                         <div><h4>Python</h4>
-                        <small className= "text-light">Intermediate+</small></div>
+                        <small className= "text-light">DSA, Machine Learning.</small></div>
                     </article>
                     <article className= "experience__details">
                     <BsPatchCheckFill className= "experience__details-icons"></BsPatchCheckFill>
                         <div><h4>HTML, CSS</h4>
-                        <small className= "text-light">Intermediate</small></div>
+                        <small className= "text-light">Web Development.</small></div>
                     </article>
                     <article className= "experience__details">
                     <BsPatchCheckFill className= "experience__details-icons"></BsPatchCheckFill>
                         <div><h4>Django, React, SQLite3</h4>
-                        <small className= "text-light">Basic</small></div>
+                        <small className= "text-light">Frameworks and Database.</small></div>
                     </article>
                     <article className= "experience__details">
                     <BsPatchCheckFill className= "experience__details-icons"></BsPatchCheckFill>
                         <div><h4>C, C++</h4>
-                        <small className= "text-light">Basic</small></div>
+                        <small className= "text-light">Intermediate.</small></div>
                     </article>
                     <article className= "experience__details">
                     <BsPatchCheckFill className= "experience__details-icons"></BsPatchCheckFill>
                         <div><h4>Git/GitHhub</h4>
-                        <small className= "text-light">Comfortable</small></div>
+                        <small className= "text-light">Intermediate.</small></div>
                     </article>
                     
                 </div>

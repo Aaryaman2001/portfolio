@@ -23,10 +23,33 @@
     --container-width-md: 86%;
     --container-width-sm: 90%;
     --transition: all 400ms ease;
-
-   
 }
+.light-theme {
+    --color-primary-variant: rgb(161, 0, 53);
+    --color-bg: rgb(255, 231, 191);
+    --color-bg: #f4c2c2;
+    --color-bg-variant: rgb(252, 176, 176);
+    --color-primary: rgb(161, 0, 53);
 
+    --color-white: black;
+    --color-light: rgb(161, 0, 53);
+    background:#ffe9ec;
+    color:#ff6a80;
+   
+    background:#ffe9ec;
+    background-image: url(../src/assets/brick-wall.png);
+ 
+
+}
+  
+  .dark-theme {
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-white: #fff;
+    --color-light: rgba(255,255,255,0.6);
+  }
 html{
     scroll-behavior: smooth;
 }
@@ -127,6 +150,20 @@ a:hover{
    
 }
 
+.font-link {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-align: center;
+
+
+    /* border: 1px solid var(--color-primary);  */
+  }
+  
+
+
 /* Media queries for medium devices */
 
 @media screen and (max-width: 1024px){
@@ -138,6 +175,7 @@ a:hover{
     }
 }
 
+
 /* Media queries for small devices */
 
 @media screen and (max-width: 600px){
@@ -148,3 +186,29 @@ a:hover{
         margin-bottom: 2rem;
     }
 }
+
+.game-area{
+    position: relative;
+    width: 600px;
+    margin: 50px auto;
+    height: 600px;
+    border: 2px solid black;
+  }
+  
+  .snake-dot{
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    background-color: black;
+    border: 1px solid white;
+    z-index: 2;
+  }
+  
+  .food{
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    background-color: red;
+    border: 1px solid white;
+    z-index: 1;
+  }

@@ -56,12 +56,14 @@
     }
  }
  
- @media screen and (max-width: 650px){
+
+ @media screen and (max-width: 600px){
+
      .portfolio__container{
          grid-template-columns: 1fr;
          gap: 1fr;
      }
+
      #image{
          width: 80%;
-     }
- }
+     }}

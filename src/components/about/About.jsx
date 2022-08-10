@@ -45,7 +45,7 @@ const about = () => {
                         </div>
                         <br></br>
                         <p>Hello, human; I hope you got to pet a cute doggo today. <br></br><br></br> I am a student at Toronto Metropolitan University, and here is a website made with tears and sweat just so you could find it xD. <br></br><br></br>
-                            I like playing guitar(Yes, I could play the entire solo for Comfortably Numb), philosophy and well, coding. I am new to the corporate side of this field and any recommendations would take me a long way, so please reach out. <br></br>
+                            I like playing guitar(Yes, I could play the entire solo for Comfortably Numb), philosophy, making websites, and grinding Leetcode xD.<br></br><br></br> I am new to the corporate side of this field and any recommendations would take me a long way, so please reach out. <br></br> 
                             <br></br>Have a wonderful day :)
                         </p>
                         <br></br>

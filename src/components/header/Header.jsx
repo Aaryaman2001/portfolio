@@ -9,7 +9,13 @@ import './title.css'
 
 
 
+
+
+
+
 const header = () => {
+    // const { theme, toggleTheme } = useContext(ThemeContext);
+
     return (
        <header>
            <div text-align = 'center' className="container header__container">
@@ -18,6 +24,10 @@ const header = () => {
            {/* <h1>Aaryaman Rattan</h1> */}
            <Title></Title>
            <h2 class= "h2">A Software Developer(flex? barely).</h2>
+
+           <h5 className= "small-flex">(Website: React, JavaScript, HTML, CSS)</h5>
+           
+          
            
 
 

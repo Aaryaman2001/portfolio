@@ -11,6 +11,7 @@ header{
     text-align: center;
     height: 100%;
     position: relative;
+    margin-top: 3rem;
  
 }
 
@@ -59,6 +60,12 @@ header{
 
 }
 
+.small-flex{
+    margin: 2rem 0.2 2.6rem;
+    color: var(--color-light);
+    font-size: 0.8rem;
+}
+
 /* scroll */
 
 .scroll__down{
@@ -80,6 +87,7 @@ header{
 @media screen and (max-width: 600px){
     header{
         height: 100vh;
+        /* grid-template-columns: 1fr; */
     }
     .header__socials, 
         .scroll__down{
