@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ce25ba7c.css",
-    "main.js": "/portfolio/static/js/main.09b7798d.js",
+    "main.css": "/portfolio/static/css/main.4f85a1a3.css",
+    "main.js": "/portfolio/static/js/main.99bb605f.js",
     "static/media/meme1.mp4": "/portfolio/static/media/meme1.1ae14246f816faaf0015.mp4",
     "static/media/meme2.mp4": "/portfolio/static/media/meme2.aaacc9fcd0d60343b93f.mp4",
     "static/media/image3.png": "/portfolio/static/media/image3.c692920010f818078ea7.png",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.216dfebca3e5de77bd1f.pdf",
     "static/media/social.png": "/portfolio/static/media/social.3059141a9b78e98f10cc.png",
     "static/media/website.png": "/portfolio/static/media/website.5739ce61283bc49ae8e8.png",
     "static/media/image2.jpg": "/portfolio/static/media/image2.6e7f52155572ae35e585.jpg",
     "static/media/social2.png": "/portfolio/static/media/social2.785c8cf4b121ba4e7709.png",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.b42b3475675c009e7838.pdf",
     "static/media/tictactoe.png": "/portfolio/static/media/tictactoe.9d11220cf25c6fcc9e1b.png",
     "static/media/tictacto2.png": "/portfolio/static/media/tictacto2.cc878c809b18b5ebadf5.png",
     "index.html": "/portfolio/index.html",
-    "main.ce25ba7c.css.map": "/portfolio/static/css/main.ce25ba7c.css.map",
-    "main.09b7798d.js.map": "/portfolio/static/js/main.09b7798d.js.map"
+    "main.4f85a1a3.css.map": "/portfolio/static/css/main.4f85a1a3.css.map",
+    "main.99bb605f.js.map": "/portfolio/static/js/main.99bb605f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce25ba7c.css",
-    "static/js/main.09b7798d.js"
+    "static/css/main.4f85a1a3.css",
+    "static/js/main.99bb605f.js"
   ]
 }
